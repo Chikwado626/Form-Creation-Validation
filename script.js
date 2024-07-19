@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 messages.push("Your username is less than 3 characters");
             }
 
-            if (!email.includes('.') || !email.includes('.com')) { // email validation
+            if (!email.includes('@') || !email.includes('.')) { // email validation
                 isValid = false;
                 messages.push("Enter a valid email");
             }
